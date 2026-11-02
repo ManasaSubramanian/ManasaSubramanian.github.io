@@ -1,0 +1,50 @@
+
+:root {
+    --bg:   #331832;
+    --card: #694D75;
+    --text: #F1ECCE;
+    --accent:   #9FC2CC;
+    --accent2:  #1B5299;
+
+}
+
+body {
+    background-color: var(--bg);
+
+
+    background-image:
+    linear-gradient(rgba(51, 24, 50, 0.7), rgba(51, 24, 50, 0.7)), /* generated with claude */
+    url('./assets/background.png'); /* generated with claude */
+    background-size: cover;
+    background-attachment: fixed;
+
+    color:  var(--text);
+    font-family: "Raleway", sans-serif;
+
+    margin: 0;
+    padding: 32px 64px;
+}
+
+h1, h2, h3 {
+    font-family: "Bitter", serif;
+}
+
+.name{
+    font-family: "Bitter", serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0 0 16px 0;
+}
+
+.tile{
+    font-size: 64px;
+    line-height: 72px;
+    margin: 0 0 64px 0;
+}
+
+.title::first-letter{
+    color: var(--accent);
+}
